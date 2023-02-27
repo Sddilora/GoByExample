@@ -42,5 +42,5 @@ func Demo1() {
 	credit3 := Car{creditPaymentTotal: 700000, rate: 15, carInfo: "vosvos"}
 
 	credits := []CreditCalculator{credit1, credit2, credit3}
-	total := CalculateMonthlyPayment(credits)
+	total := CalculateMonthlyPayment(credits)Calculate
 }
