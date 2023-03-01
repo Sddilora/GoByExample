@@ -28,7 +28,7 @@ func (c Car) Calculate() float64 {
 	return c.creditPaymentTotal * c.rate / 12
 }
 
-func CalculateMonthlyPayment(credits []CreditCalculator) { //birden fazla kredii olabillir diye array olarak interfacei gönderdim
+func CalculateMonthlyPayment(credits []CreditCalculator) { //birden fazla kredii olabillir diye array olarak interfacei gönderdik
 	paymentTotal := 0.0
 
 	for i := 0; i < len(credits); i++ {
@@ -42,5 +42,5 @@ func Demo1() {
 	credit3 := Car{creditPaymentTotal: 700000, rate: 15, carInfo: "vosvos"}
 
 	credits := []CreditCalculator{credit1, credit2, credit3}
-	total := CalculateMonthlyPayment(credits)Calculate
+	total := CalculateMonthlyPayment(credits).Calculate()
 }
