@@ -1,12 +1,8 @@
-/*:Bir öğrencinin almış olduğu vize notu ile final notunun ortalamasını hesaplayan
-algoritmayı ve akış şemasını hazırlayınız.(Vize notunun %30’unu final notunun %70’ini alarak
-hesaplama yapınız) (Notlar kullanıcı tarafından girilecektir*/
-
-package main
+package hw
 
 import "fmt"
 
-func main() {
+func hw7() {
 
 	vize := 0
 	final := 0
@@ -23,3 +19,7 @@ func main() {
 	fmt.Println("Ortalamanız", ortalama)
 
 }
+
+/*:Bir öğrencinin almış olduğu vize notu ile final notunun ortalamasını hesaplayan
+algoritmayı ve akış şemasını hazırlayınız.(Vize notunun %30’unu final notunun %70’ini alarak
+hesaplama yapınız) (Notlar kullanıcı tarafından girilecektir*/

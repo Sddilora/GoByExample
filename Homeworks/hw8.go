@@ -1,21 +1,8 @@
-/*
-Kullanıcı tarafından girilen kilo ve boy bilgilerine göre vücut kitle indeksini hesaplayan
-aynı zamanda bu sonuca göre kişinin ideal kilo durumunu ekrana yazdıran algoritmayı ve akış
-şemasını hazırlayınız.
-Not-1: Vücut kitle indeksi = Kilo / Boy * Boy
-Not-2: Kilo => kg, Boy => m
-Not-3: Vücut kitle indeksi < 18,5 ise Zayıf
- 18,5 < Vücut kitle indeksi < 24,9 ise Normal
- 25 < Vücut kitle indeksi < 29,9 ise Fazla kilolu
- 30 < Vücut kitle indeksi < 34,9 ise I. derece obez
- 35 < Vücut kitle indeksi < 39,9 ise II. derece obez
- Vücut kitle indeksi > 40 ise III. derece obez
-*/
-package main
+package hw
 
 import "fmt"
 
-func main() {
+func hw8() {
 
 	kilo := 0.0
 	boy := 0.0
@@ -47,3 +34,17 @@ func main() {
 		fmt.Println("Girdiğiniz değerler doğru değil")
 	}
 }
+
+/*
+Kullanıcı tarafından girilen kilo ve boy bilgilerine göre vücut kitle indeksini hesaplayan
+aynı zamanda bu sonuca göre kişinin ideal kilo durumunu ekrana yazdıran algoritmayı ve akış
+şemasını hazırlayınız.
+Not-1: Vücut kitle indeksi = Kilo / Boy * Boy
+Not-2: Kilo => kg, Boy => m
+Not-3: Vücut kitle indeksi < 18,5 ise Zayıf
+ 18,5 < Vücut kitle indeksi < 24,9 ise Normal
+ 25 < Vücut kitle indeksi < 29,9 ise Fazla kilolu
+ 30 < Vücut kitle indeksi < 34,9 ise I. derece obez
+ 35 < Vücut kitle indeksi < 39,9 ise II. derece obez
+ Vücut kitle indeksi > 40 ise III. derece obez
+*/

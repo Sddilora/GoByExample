@@ -1,11 +1,8 @@
-/*:1’den 100’e kadar olan sayıların toplamını ekrana yazdıran algoritmayı ve akış şemasını
-hazırlayınız.*/
-
-package main
+package hw
 
 import "fmt"
 
-func main() {
+func hw3() {
 
 	toplam := 0
 
@@ -13,5 +10,7 @@ func main() {
 		toplam = b + toplam
 	}
 	fmt.Println(toplam)
-
 }
+
+/*:1’den 100’e kadar olan sayıların toplamını ekrana yazdıran algoritmayı ve akış şemasını
+hazırlayınız.*/

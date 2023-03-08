@@ -1,22 +1,15 @@
-/*
-	Kullanıcı tarafından oluşturulan bir dizideki elemanları büyükten küçüğe doğru
-
-sıralayan algoritmayı ve akış şemasını hazırlayını
-*/
-package main
+package hw
 
 import "fmt"
 
-var c int
-var b []int
-var a []int // = []int{4, 1, 5, 3, 9, 7, 11, 13, 14, 15, 8}
-var m int
-var n int
-var h int
+func hw9() {
 
-//var smallest int = a[0]
+	var a []int // = []int{4, 1, 5, 3, 9, 7, 11, 13, 14, 15, 8}
+	var m int
+	var n int
+	var h int
 
-func main() {
+	//var smallest int = a[0]
 
 	fmt.Println("Gireceğiniz Dizinin Eleman Sayısını Giriniz")
 	fmt.Scanf("%d\n", &h)
@@ -46,3 +39,9 @@ func main() {
 	fmt.Println(a)
 
 }
+
+/*
+	Kullanıcı tarafından oluşturulan bir dizideki elemanları büyükten küçüğe doğru
+
+sıralayan algoritmayı ve akış şemasını hazırlayını
+*/

@@ -1,11 +1,8 @@
-/*:1’den 100’e kadar olan tek sayıları ekrana yazdıran algoritmayı ve akış şemasını
-hazırlayınız.*/
-
-package main
+package hw
 
 import "fmt"
 
-func main() {
+func hw4() {
 
 	for a := 0; a < 100; a++ {
 
@@ -14,3 +11,6 @@ func main() {
 		}
 	}
 }
+
+/*:1’den 100’e kadar olan tek sayıları ekrana yazdıran algoritmayı ve akış şemasını
+hazırlayınız.*/

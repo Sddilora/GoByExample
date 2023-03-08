@@ -1,8 +1,8 @@
-package main
+package hw
 
 import "fmt"
 
-func main() {
+func hw1() {
 	n := 1
 	m := 2
 	toplam := 0

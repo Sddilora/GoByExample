@@ -1,10 +1,8 @@
-/*Bir dizinin ortalamasını bulan algoritmayı ve akış şemasını hazırlayınız.*/
-
-package main
+package hw
 
 import "fmt"
 
-func main() {
+func hw6() {
 
 	a := []int{1, 6, 8, 5, 9, 12, 4, 5, 7, 8}
 
@@ -18,5 +16,6 @@ func main() {
 	ortalama := float32(toplam) / float32(len(a))
 
 	fmt.Println(ortalama)
-
 }
+
+/*Bir dizinin ortalamasını bulan algoritmayı ve akış şemasını hazırlayınız.*/

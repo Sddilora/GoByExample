@@ -1,8 +1,8 @@
-package main
+package hw
 
 import "fmt"
 
-func main() {
+func hw2() {
 
 	//a:=0
 

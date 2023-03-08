@@ -1,19 +1,16 @@
-package main
+package hw
 
 import "fmt"
 
-var a []int
-var v []int
-var b int
-var z int
-var d int
+func hw10() {
 
-var h int
-var n int
-var k int
-var m int
+	var a []int
+	var v []int
+	var b int
 
-func main() {
+	var h int
+	var n int
+	var m int
 
 	fmt.Println("Gireceğiniz Dizinin Eleman Sayısını Giriniz")
 	fmt.Scanf("%d\n", &h)
