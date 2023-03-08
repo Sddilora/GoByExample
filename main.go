@@ -1,6 +1,11 @@
 package main
 
-func main(){
+import (
+	interfaces "lesson/interfaces"
+)
 
-	
+func main() {
+
+	interfaces.Demo1()
+
 }

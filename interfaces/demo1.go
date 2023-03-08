@@ -1,5 +1,7 @@
 package interfaces
 
+import "fmt"
+
 type Mortgage struct { //mortgage: ipotek
 	creditPaymentTotal float64
 	address            string
@@ -28,12 +30,13 @@ func (c Car) Calculate() float64 {
 	return c.creditPaymentTotal * c.rate / 12
 }
 
-func CalculateMonthlyPayment(credits []CreditCalculator) { //birden fazla kredii olabillir diye array olarak interfacei gönderdik
+func CalculateMonthlyPayment(credits []CreditCalculator) float64 { //birden fazla kredii olabillir diye array olarak interfacei gönderdik
 	paymentTotal := 0.0
 
 	for i := 0; i < len(credits); i++ {
 		paymentTotal = paymentTotal + credits[i].Calculate()
 	}
+	return paymentTotal
 }
 
 func Demo1() {
@@ -41,6 +44,8 @@ func Demo1() {
 	credit2 := Mortgage{creditPaymentTotal: 50000, rate: 5, address: "İstanbul"}
 	credit3 := Car{creditPaymentTotal: 700000, rate: 15, carInfo: "vosvos"}
 
-	credits := []CreditCalculator{credit1, credit2, credit3}
-	total := CalculateMonthlyPayment(credits).Calculate()
+	credits := []CreditCalculator{credit1, credit2, credit3} //  O interface uyan structların arrayi
+	total := CalculateMonthlyPayment(credits)
+
+	fmt.Println("Toplam ödeme:", total)
 }
