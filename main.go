@@ -1,9 +1,5 @@
 package main
 
-import (
-	"lesson/interfaces"
-)
-
 func main() {
 
 	// interfaces.Demo1()
@@ -16,6 +12,8 @@ func main() {
 	//error_handling.Demo1()
 	//error_handling.Demo2()
 
-	interfaces.Demo4()
+	//interfaces.Demo4()
 
+	//error_handling.Demo3()
+	//fmt.Println(error_handling.GuessWhat2(102)) //konsol :: 102---Out of range
 }
