@@ -1,6 +1,8 @@
 package main
 
-import "lesson/string_functions"
+import (
+	"lesson/restful"
+)
 
 func main() {
 
@@ -20,5 +22,9 @@ func main() {
 	//fmt.Println(error_handling.GuessWhat2(102)) //konsol :: 102---Out of range
 
 	//string_functions.Demo1()
-	string_functions.Demo2()
+	//string_functions.Demo2()
+
+	//restful.Demo1()
+	restful.Demo2()
+
 }
