@@ -19,5 +19,6 @@ func main() {
 	//error_handling.Demo3()
 	//fmt.Println(error_handling.GuessWhat2(102)) //konsol :: 102---Out of range
 
-	string_functions.Demo1()
+	//string_functions.Demo1()
+	string_functions.Demo2()
 }
