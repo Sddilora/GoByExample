@@ -1,5 +1,7 @@
 package main
 
+import "lesson/string_functions"
+
 func main() {
 
 	// interfaces.Demo1()
@@ -16,4 +18,6 @@ func main() {
 
 	//error_handling.Demo3()
 	//fmt.Println(error_handling.GuessWhat2(102)) //konsol :: 102---Out of range
+
+	string_functions.Demo1()
 }
