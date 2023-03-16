@@ -1,6 +1,8 @@
 package main
 
-import "lesson/defer_statement"
+import (
+	"lesson/interfaces"
+)
 
 func main() {
 
@@ -9,5 +11,11 @@ func main() {
 	// interfaces.Demo3()
 
 	// defer_statement.TestA2()
-	defer_statement.Demo3()
+	//defer_statement.Demo3()
+
+	//error_handling.Demo1()
+	//error_handling.Demo2()
+
+	interfaces.Demo4()
+
 }
