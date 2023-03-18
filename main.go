@@ -27,5 +27,14 @@ func main() {
 	//restful.Demo1()
 	//restful.Demo2()
 
+	//project.GetAllProducts()
+
+	// project.AddProduct()
+	// project.GetAllProducts()
+
+	// project.AddProduct2()
+	// project.GetAllProducts()
+
+	project.AddProduct3()
 	project.GetAllProducts()
 }
