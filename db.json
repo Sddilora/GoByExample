@@ -35,6 +35,12 @@
       "product_name": "Microphone",
       "category_id": 1,
       "unit_price": 2000
+    },
+    {
+      "id": 7,
+      "product_name": "Keyboard",
+      "category_id": 1,
+      "unit_price": 300
     }
   ],
   "categories": [
