@@ -1,9 +1,4 @@
-
 package main
-
-import (
-	"lesson/restful"
-)
 
 func main() {
 
@@ -24,11 +19,4 @@ func main() {
 
 	//string_functions.Demo1()
 	//string_functions.Demo2()
-<<<<<<< HEAD
-
-	//restful.Demo1()
-	restful.Demo2()
-
-=======
->>>>>>> 7912acef7ddde6fdd3abb1a280171f343551a938
 }
