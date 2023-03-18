@@ -1,34 +1,50 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "product_name": "Laptop",
-            "category_id": 1,
-            "unit_price":5000.99
-        },
-        {
-            "id": 2,
-            "product_name": "Mouse",
-            "category_id": 1,
-            "unit_price":50.99
-        },
-        {
-            "id": 3,
-            "product_name": "Water",
-            "category_id": 2,
-            "unit_price":3.99
-        }
-    ],
-    "categories": [
-        {
-            "id": 1,
-            "category_name": "computers"
-        },
-        {
-            "id": 1,
-            "category_name": "Beverages"
-        }
-
-    ]
+  "products": [
+    {
+      "id": 1,
+      "product_name": "Laptop",
+      "category_id": 1,
+      "unit_price": 5000.99
+    },
+    {
+      "id": 2,
+      "product_name": "Mouse",
+      "category_id": 1,
+      "unit_price": 50.99
+    },
+    {
+      "id": 3,
+      "product_name": "Water",
+      "category_id": 2,
+      "unit_price": 3.99
+    },
+    {
+      "id": 4,
+      "product_name": "Cell Phone",
+      "category_id": 1,
+      "unit_price": 10000
+    },
+    {
+      "id": 5,
+      "product_name": "Microphone",
+      "category_id": 1,
+      "unit_price": 2000
+    },
+    {
+      "id": 6,
+      "product_name": "Microphone",
+      "category_id": 1,
+      "unit_price": 2000
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "category_name": "computers"
+    },
+    {
+      "id": 1,
+      "category_name": "Beverages"
+    }
+  ]
 }
- 
