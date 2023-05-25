@@ -17,7 +17,17 @@ func main() {
 func Snail(snaipMap [][]int) []int {
 	var snail []int
 	if len(snaipMap) == 0 {
-		return snail
+		return []int{}
+	}
+
+	for i := 0; i < len(snaipMap); i++ {
+		if len(snaipMap[i]) == 0 {
+			return []int{}
+		} else if len(snaipMap[i]) != len(snaipMap) {
+			return []int{}
+
+		}
+
 	}
 
 	if len(snaipMap)%2 == 0 {
