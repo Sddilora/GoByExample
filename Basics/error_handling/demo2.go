@@ -6,7 +6,7 @@ import (
 )
 
 func Demo2() {
-	f, err := os.Open("demo1.txt")
+	f, err := os.Open("demo1.txt") // Dosya bulunamadı demo1.txt ( dosyası main.go dosyasının bulunduğu konumda olmalıdır. )
 
 	if err != nil {
 		if pErr, ok := err.(*os.PathError); ok {
